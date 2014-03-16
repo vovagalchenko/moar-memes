@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC9B11B418D5484400430960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B318D5484400430960 /* Foundation.framework */; };
+		DC9B11B618D5484400430960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B518D5484400430960 /* CoreGraphics.framework */; };
+		DC9B11B818D5484400430960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B718D5484400430960 /* UIKit.framework */; };
+		DC9B11BE18D5484400430960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9B11BC18D5484400430960 /* InfoPlist.strings */; };
+		DC9B11C018D5484400430960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B11BF18D5484400430960 /* main.m */; };
+		DC9B11C418D5484400430960 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B11C318D5484400430960 /* MMAppDelegate.m */; };
+		DC9B11C618D5484400430960 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9B11C518D5484400430960 /* Images.xcassets */; };
+		DC9B11CD18D5484400430960 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11CC18D5484400430960 /* XCTest.framework */; };
+		DC9B11CE18D5484400430960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B318D5484400430960 /* Foundation.framework */; };
+		DC9B11CF18D5484400430960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B718D5484400430960 /* UIKit.framework */; };
+		DC9B11D718D5484400430960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9B11D518D5484400430960 /* InfoPlist.strings */; };
+		DC9B11D918D5484400430960 /* MoarMemesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B11D818D5484400430960 /* MoarMemesTests.m */; };
+		DC9B11EF18D54A3800430960 /* MemeWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B11ED18D54A3800430960 /* MemeWallViewController.m */; };
+		DC9B11F018D54A3800430960 /* MemeWallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC9B11EE18D54A3800430960 /* MemeWallViewController.xib */; };
+		DC9B11F318D54A8000430960 /* libInfiniteScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11E818D548B100430960 /* libInfiniteScroll.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC9B11D018D5484400430960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9B11A818D5484400430960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9B11AF18D5484400430960;
+			remoteInfo = MoarMemes;
+		};
+		DC9B11E718D548B100430960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80B4E96218B2868000EF7BEF;
+			remoteInfo = InfiniteScroll;
+		};
+		DC9B11E918D548B100430960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80B4E97218B2868100EF7BEF;
+			remoteInfo = InfiniteScrollTests;
+		};
+		DC9B11F118D54A7800430960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B4E96118B2868000EF7BEF;
+			remoteInfo = InfiniteScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC9B11B018D5484400430960 /* MoarMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoarMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9B11B318D5484400430960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC9B11B518D5484400430960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC9B11B718D5484400430960 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC9B11BB18D5484400430960 /* MoarMemes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoarMemes-Info.plist"; sourceTree = "<group>"; };
+		DC9B11BD18D5484400430960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC9B11BF18D5484400430960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC9B11C118D5484400430960 /* MoarMemes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoarMemes-Prefix.pch"; sourceTree = "<group>"; };
+		DC9B11C218D5484400430960 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		DC9B11C318D5484400430960 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		DC9B11C518D5484400430960 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC9B11CB18D5484400430960 /* MoarMemesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoarMemesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9B11CC18D5484400430960 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC9B11D418D5484400430960 /* MoarMemesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoarMemesTests-Info.plist"; sourceTree = "<group>"; };
+		DC9B11D618D5484400430960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC9B11D818D5484400430960 /* MoarMemesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoarMemesTests.m; sourceTree = "<group>"; };
+		DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InfiniteScroll.xcodeproj; path = "../scroll-for-days/InfiniteScroll/InfiniteScroll.xcodeproj"; sourceTree = "<group>"; };
+		DC9B11EC18D54A3800430960 /* MemeWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeWallViewController.h; sourceTree = "<group>"; };
+		DC9B11ED18D54A3800430960 /* MemeWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeWallViewController.m; sourceTree = "<group>"; };
+		DC9B11EE18D54A3800430960 /* MemeWallViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemeWallViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9B11AD18D5484400430960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9B11F318D54A8000430960 /* libInfiniteScroll.a in Frameworks */,
+				DC9B11B618D5484400430960 /* CoreGraphics.framework in Frameworks */,
+				DC9B11B818D5484400430960 /* UIKit.framework in Frameworks */,
+				DC9B11B418D5484400430960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9B11C818D5484400430960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9B11CD18D5484400430960 /* XCTest.framework in Frameworks */,
+				DC9B11CF18D5484400430960 /* UIKit.framework in Frameworks */,
+				DC9B11CE18D5484400430960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9B11A718D5484400430960 = {
+			isa = PBXGroup;
+			children = (
+				DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */,
+				DC9B11B918D5484400430960 /* MoarMemes */,
+				DC9B11D218D5484400430960 /* MoarMemesTests */,
+				DC9B11B218D5484400430960 /* Frameworks */,
+				DC9B11B118D5484400430960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9B11B118D5484400430960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B11B018D5484400430960 /* MoarMemes.app */,
+				DC9B11CB18D5484400430960 /* MoarMemesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9B11B218D5484400430960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B11B318D5484400430960 /* Foundation.framework */,
+				DC9B11B518D5484400430960 /* CoreGraphics.framework */,
+				DC9B11B718D5484400430960 /* UIKit.framework */,
+				DC9B11CC18D5484400430960 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC9B11B918D5484400430960 /* MoarMemes */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B11EC18D54A3800430960 /* MemeWallViewController.h */,
+				DC9B11ED18D54A3800430960 /* MemeWallViewController.m */,
+				DC9B11EE18D54A3800430960 /* MemeWallViewController.xib */,
+				DC9B11C218D5484400430960 /* MMAppDelegate.h */,
+				DC9B11C318D5484400430960 /* MMAppDelegate.m */,
+				DC9B11C518D5484400430960 /* Images.xcassets */,
+				DC9B11BA18D5484400430960 /* Supporting Files */,
+			);
+			path = MoarMemes;
+			sourceTree = "<group>";
+		};
+		DC9B11BA18D5484400430960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B11BB18D5484400430960 /* MoarMemes-Info.plist */,
+				DC9B11BC18D5484400430960 /* InfoPlist.strings */,
+				DC9B11BF18D5484400430960 /* main.m */,
+				DC9B11C118D5484400430960 /* MoarMemes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC9B11D218D5484400430960 /* MoarMemesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B11D818D5484400430960 /* MoarMemesTests.m */,
+				DC9B11D318D5484400430960 /* Supporting Files */,
+			);
+			path = MoarMemesTests;
+			sourceTree = "<group>";
+		};
+		DC9B11D318D5484400430960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B11D418D5484400430960 /* MoarMemesTests-Info.plist */,
+				DC9B11D518D5484400430960 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC9B11E318D548B100430960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B11E818D548B100430960 /* libInfiniteScroll.a */,
+				DC9B11EA18D548B100430960 /* InfiniteScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9B11AF18D5484400430960 /* MoarMemes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9B11DC18D5484400430960 /* Build configuration list for PBXNativeTarget "MoarMemes" */;
+			buildPhases = (
+				DC9B11AC18D5484400430960 /* Sources */,
+				DC9B11AD18D5484400430960 /* Frameworks */,
+				DC9B11AE18D5484400430960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9B11F218D54A7800430960 /* PBXTargetDependency */,
+			);
+			name = MoarMemes;
+			productName = MoarMemes;
+			productReference = DC9B11B018D5484400430960 /* MoarMemes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC9B11CA18D5484400430960 /* MoarMemesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9B11DF18D5484400430960 /* Build configuration list for PBXNativeTarget "MoarMemesTests" */;
+			buildPhases = (
+				DC9B11C718D5484400430960 /* Sources */,
+				DC9B11C818D5484400430960 /* Frameworks */,
+				DC9B11C918D5484400430960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9B11D118D5484400430960 /* PBXTargetDependency */,
+			);
+			name = MoarMemesTests;
+			productName = MoarMemesTests;
+			productReference = DC9B11CB18D5484400430960 /* MoarMemesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9B11A818D5484400430960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Galchenko;
+				TargetAttributes = {
+					DC9B11CA18D5484400430960 = {
+						TestTargetID = DC9B11AF18D5484400430960;
+					};
+				};
+			};
+			buildConfigurationList = DC9B11AB18D5484400430960 /* Build configuration list for PBXProject "MoarMemes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC9B11A718D5484400430960;
+			productRefGroup = DC9B11B118D5484400430960 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DC9B11E318D548B100430960 /* Products */;
+					ProjectRef = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DC9B11AF18D5484400430960 /* MoarMemes */,
+				DC9B11CA18D5484400430960 /* MoarMemesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DC9B11E818D548B100430960 /* libInfiniteScroll.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libInfiniteScroll.a;
+			remoteRef = DC9B11E718D548B100430960 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC9B11EA18D548B100430960 /* InfiniteScrollTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = InfiniteScrollTests.xctest;
+			remoteRef = DC9B11E918D548B100430960 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9B11AE18D5484400430960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9B11F018D54A3800430960 /* MemeWallViewController.xib in Resources */,
+				DC9B11BE18D5484400430960 /* InfoPlist.strings in Resources */,
+				DC9B11C618D5484400430960 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9B11C918D5484400430960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9B11D718D5484400430960 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9B11AC18D5484400430960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9B11C418D5484400430960 /* MMAppDelegate.m in Sources */,
+				DC9B11C018D5484400430960 /* main.m in Sources */,
+				DC9B11EF18D54A3800430960 /* MemeWallViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9B11C718D5484400430960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9B11D918D5484400430960 /* MoarMemesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC9B11D118D5484400430960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9B11AF18D5484400430960 /* MoarMemes */;
+			targetProxy = DC9B11D018D5484400430960 /* PBXContainerItemProxy */;
+		};
+		DC9B11F218D54A7800430960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InfiniteScroll;
+			targetProxy = DC9B11F118D54A7800430960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC9B11BC18D5484400430960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9B11BD18D5484400430960 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC9B11D518D5484400430960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9B11D618D5484400430960 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9B11DA18D5484400430960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC9B11DB18D5484400430960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9B11DD18D5484400430960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoarMemes/MoarMemes-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+				);
+				INFOPLIST_FILE = "MoarMemes/MoarMemes-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC9B11DE18D5484400430960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoarMemes/MoarMemes-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+				);
+				INFOPLIST_FILE = "MoarMemes/MoarMemes-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC9B11E018D5484400430960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoarMemes.app/MoarMemes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoarMemes/MoarMemes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MoarMemesTests/MoarMemesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC9B11E118D5484400430960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoarMemes.app/MoarMemes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoarMemes/MoarMemes-Prefix.pch";
+				INFOPLIST_FILE = "MoarMemesTests/MoarMemesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9B11AB18D5484400430960 /* Build configuration list for PBXProject "MoarMemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9B11DA18D5484400430960 /* Debug */,
+				DC9B11DB18D5484400430960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9B11DC18D5484400430960 /* Build configuration list for PBXNativeTarget "MoarMemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9B11DD18D5484400430960 /* Debug */,
+				DC9B11DE18D5484400430960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC9B11DF18D5484400430960 /* Build configuration list for PBXNativeTarget "MoarMemesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9B11E018D5484400430960 /* Debug */,
+				DC9B11E118D5484400430960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9B11A818D5484400430960 /* Project object */;
+}

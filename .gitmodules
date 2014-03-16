@@ -1,0 +1,3 @@
+[submodule "scroll-for-days"]
+	path = scroll-for-days
+	url = https://github.com/vovagalchenko/scroll-for-days.git
