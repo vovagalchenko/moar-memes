@@ -1,3 +1,7 @@
 [submodule "scroll-for-days"]
 	path = scroll-for-days
 	url = https://github.com/vovagalchenko/scroll-for-days.git
+	branch = master
+[submodule "progress-hud"]
+	path = progress-hud
+	url = https://github.com/jdg/MBProgressHUD.git

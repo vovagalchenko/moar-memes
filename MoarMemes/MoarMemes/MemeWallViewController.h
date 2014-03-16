@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <InfiniteScroll/INFScrollView.h>
 
-@interface MemeWallViewController : UIViewController
+@interface MemeWallViewController : UIViewController <INFScrollViewDelegate>
 
 @end

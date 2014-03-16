@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80629C6E18D6036200106131 /* ImgurImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 80629C6D18D6036200106131 /* ImgurImage.m */; };
+		80629C7A18D615A500106131 /* libInfiniteScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80629C7518D6159000106131 /* libInfiniteScroll.a */; };
+		80629C8118D6163800106131 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80629C8018D6162900106131 /* libMBProgressHUD.a */; };
 		DC9B11B418D5484400430960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B318D5484400430960 /* Foundation.framework */; };
 		DC9B11B618D5484400430960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B518D5484400430960 /* CoreGraphics.framework */; };
 		DC9B11B818D5484400430960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11B718D5484400430960 /* UIKit.framework */; };
@@ -21,10 +24,44 @@
 		DC9B11D918D5484400430960 /* MoarMemesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B11D818D5484400430960 /* MoarMemesTests.m */; };
 		DC9B11EF18D54A3800430960 /* MemeWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B11ED18D54A3800430960 /* MemeWallViewController.m */; };
 		DC9B11F018D54A3800430960 /* MemeWallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC9B11EE18D54A3800430960 /* MemeWallViewController.xib */; };
-		DC9B11F318D54A8000430960 /* libInfiniteScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B11E818D548B100430960 /* libInfiniteScroll.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		80629C7418D6159000106131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80629C6F18D6159000106131 /* InfiniteScroll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80B4E96218B2868000EF7BEF;
+			remoteInfo = InfiniteScroll;
+		};
+		80629C7618D6159000106131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80629C6F18D6159000106131 /* InfiniteScroll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80B4E97218B2868100EF7BEF;
+			remoteInfo = InfiniteScrollTests;
+		};
+		80629C7818D615A000106131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80629C6F18D6159000106131 /* InfiniteScroll.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B4E96118B2868000EF7BEF;
+			remoteInfo = InfiniteScroll;
+		};
+		80629C7F18D6162900106131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80629C7B18D6162900106131 /* MBProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D286A7491518C70F00E13FB8;
+			remoteInfo = MBProgressHUD;
+		};
+		80629C8218D6163C00106131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80629C7B18D6162900106131 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D286A7481518C70F00E13FB8;
+			remoteInfo = MBProgressHUD;
+		};
 		DC9B11D018D5484400430960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC9B11A818D5484400430960 /* Project object */;
@@ -32,30 +69,13 @@
 			remoteGlobalIDString = DC9B11AF18D5484400430960;
 			remoteInfo = MoarMemes;
 		};
-		DC9B11E718D548B100430960 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 80B4E96218B2868000EF7BEF;
-			remoteInfo = InfiniteScroll;
-		};
-		DC9B11E918D548B100430960 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 80B4E97218B2868100EF7BEF;
-			remoteInfo = InfiniteScrollTests;
-		};
-		DC9B11F118D54A7800430960 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 80B4E96118B2868000EF7BEF;
-			remoteInfo = InfiniteScroll;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80629C6C18D6036200106131 /* ImgurImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgurImage.h; sourceTree = "<group>"; };
+		80629C6D18D6036200106131 /* ImgurImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgurImage.m; sourceTree = "<group>"; };
+		80629C6F18D6159000106131 /* InfiniteScroll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InfiniteScroll.xcodeproj; path = "../scroll-for-days/InfiniteScroll/InfiniteScroll.xcodeproj"; sourceTree = "<group>"; };
+		80629C7B18D6162900106131 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = "../progress-hud/MBProgressHUD.xcodeproj"; sourceTree = "<group>"; };
 		DC9B11B018D5484400430960 /* MoarMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoarMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9B11B318D5484400430960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC9B11B518D5484400430960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,7 +92,6 @@
 		DC9B11D418D5484400430960 /* MoarMemesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoarMemesTests-Info.plist"; sourceTree = "<group>"; };
 		DC9B11D618D5484400430960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC9B11D818D5484400430960 /* MoarMemesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoarMemesTests.m; sourceTree = "<group>"; };
-		DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InfiniteScroll.xcodeproj; path = "../scroll-for-days/InfiniteScroll/InfiniteScroll.xcodeproj"; sourceTree = "<group>"; };
 		DC9B11EC18D54A3800430960 /* MemeWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeWallViewController.h; sourceTree = "<group>"; };
 		DC9B11ED18D54A3800430960 /* MemeWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeWallViewController.m; sourceTree = "<group>"; };
 		DC9B11EE18D54A3800430960 /* MemeWallViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemeWallViewController.xib; sourceTree = "<group>"; };
@@ -83,7 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9B11F318D54A8000430960 /* libInfiniteScroll.a in Frameworks */,
+				80629C8118D6163800106131 /* libMBProgressHUD.a in Frameworks */,
+				80629C7A18D615A500106131 /* libInfiniteScroll.a in Frameworks */,
 				DC9B11B618D5484400430960 /* CoreGraphics.framework in Frameworks */,
 				DC9B11B818D5484400430960 /* UIKit.framework in Frameworks */,
 				DC9B11B418D5484400430960 /* Foundation.framework in Frameworks */,
@@ -103,10 +123,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80629C7018D6159000106131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80629C7518D6159000106131 /* libInfiniteScroll.a */,
+				80629C7718D6159000106131 /* InfiniteScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80629C7C18D6162900106131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80629C8018D6162900106131 /* libMBProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DC9B11A718D5484400430960 = {
 			isa = PBXGroup;
 			children = (
-				DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */,
+				80629C7B18D6162900106131 /* MBProgressHUD.xcodeproj */,
+				80629C6F18D6159000106131 /* InfiniteScroll.xcodeproj */,
 				DC9B11B918D5484400430960 /* MoarMemes */,
 				DC9B11D218D5484400430960 /* MoarMemesTests */,
 				DC9B11B218D5484400430960 /* Frameworks */,
@@ -137,6 +175,8 @@
 		DC9B11B918D5484400430960 /* MoarMemes */ = {
 			isa = PBXGroup;
 			children = (
+				80629C6C18D6036200106131 /* ImgurImage.h */,
+				80629C6D18D6036200106131 /* ImgurImage.m */,
 				DC9B11EC18D54A3800430960 /* MemeWallViewController.h */,
 				DC9B11ED18D54A3800430960 /* MemeWallViewController.m */,
 				DC9B11EE18D54A3800430960 /* MemeWallViewController.xib */,
@@ -177,15 +217,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DC9B11E318D548B100430960 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DC9B11E818D548B100430960 /* libInfiniteScroll.a */,
-				DC9B11EA18D548B100430960 /* InfiniteScrollTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,7 +231,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				DC9B11F218D54A7800430960 /* PBXTargetDependency */,
+				80629C8318D6163C00106131 /* PBXTargetDependency */,
+				80629C7918D615A000106131 /* PBXTargetDependency */,
 			);
 			name = MoarMemes;
 			productName = MoarMemes;
@@ -252,8 +284,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DC9B11E318D548B100430960 /* Products */;
-					ProjectRef = DC9B11E218D548B100430960 /* InfiniteScroll.xcodeproj */;
+					ProductGroup = 80629C7018D6159000106131 /* Products */;
+					ProjectRef = 80629C6F18D6159000106131 /* InfiniteScroll.xcodeproj */;
+				},
+				{
+					ProductGroup = 80629C7C18D6162900106131 /* Products */;
+					ProjectRef = 80629C7B18D6162900106131 /* MBProgressHUD.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -265,18 +301,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		DC9B11E818D548B100430960 /* libInfiniteScroll.a */ = {
+		80629C7518D6159000106131 /* libInfiniteScroll.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libInfiniteScroll.a;
-			remoteRef = DC9B11E718D548B100430960 /* PBXContainerItemProxy */;
+			remoteRef = 80629C7418D6159000106131 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DC9B11EA18D548B100430960 /* InfiniteScrollTests.xctest */ = {
+		80629C7718D6159000106131 /* InfiniteScrollTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = InfiniteScrollTests.xctest;
-			remoteRef = DC9B11E918D548B100430960 /* PBXContainerItemProxy */;
+			remoteRef = 80629C7618D6159000106131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80629C8018D6162900106131 /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = 80629C7F18D6162900106131 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -309,6 +352,7 @@
 			files = (
 				DC9B11C418D5484400430960 /* MMAppDelegate.m in Sources */,
 				DC9B11C018D5484400430960 /* main.m in Sources */,
+				80629C6E18D6036200106131 /* ImgurImage.m in Sources */,
 				DC9B11EF18D54A3800430960 /* MemeWallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,15 +368,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		80629C7918D615A000106131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InfiniteScroll;
+			targetProxy = 80629C7818D615A000106131 /* PBXContainerItemProxy */;
+		};
+		80629C8318D6163C00106131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			targetProxy = 80629C8218D6163C00106131 /* PBXContainerItemProxy */;
+		};
 		DC9B11D118D5484400430960 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC9B11AF18D5484400430960 /* MoarMemes */;
 			targetProxy = DC9B11D018D5484400430960 /* PBXContainerItemProxy */;
-		};
-		DC9B11F218D54A7800430960 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = InfiniteScroll;
-			targetProxy = DC9B11F118D54A7800430960 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -531,6 +580,7 @@
 				DC9B11DE18D5484400430960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC9B11DF18D5484400430960 /* Build configuration list for PBXNativeTarget "MoarMemesTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +589,7 @@
 				DC9B11E118D5484400430960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
